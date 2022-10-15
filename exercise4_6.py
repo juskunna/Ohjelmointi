@@ -35,6 +35,8 @@ if temperature > 20:
 # heatwave = true, "Helleaalto!"
 # raining ja heatwave = true, "Kosteaa ja tukalaa."
 
+print(f"Lämpötila on {temperature}C")
+
 if raining and heatwave:
     print("Kosteaa ja tukalaa.")
 
@@ -49,7 +51,3 @@ elif raining:
 
 elif heatwave:
     print("Helleaalto!")
-
-else:
-    print(f"Lämpötila on {temperature} C")
-
