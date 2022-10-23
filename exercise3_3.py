@@ -16,7 +16,6 @@ if workhours <= 40:
     salary_week = workhours * hourly_wage
     salary_week = round(salary_week, 2)
 
-    print(f"Viikon ansiosi ovat: {salary_week}")
 
 # jos tehty ylitöitä, tunnit yli 40, lasketaan peruspalkka ensimmäiselle 40 tunnille ja
 # ylityöpalkka ylimeneville tunneille 50% korotettuna jotka lasketaan yhteen viikkopalkaksi.
@@ -28,4 +27,4 @@ else:
     salary_week = salary_base + salary_overtime
     salary_week = round(salary_week, 2)
 
-    print(f"Viikon ansiosi ovat: {salary_week}")
+print(f"Viikon ansiosi ovat: {salary_week}")

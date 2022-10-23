@@ -6,14 +6,14 @@ temperature = int(temperature)
 if temperature >= 0 and temperature <= 10:
     print("KYLMÄÄ")
 
-if temperature > 10 and temperature <= 15:
+elif temperature > 10 and temperature <= 15:
     print("KOLEAA")
 
-if temperature > 15 and temperature <=20:
+elif temperature > 15 and temperature <=20:
     print("NORMAALI LÄMPÖTILA")
 
-if temperature > 20 and temperature <= 25:
+elif temperature > 20 and temperature <= 25:
     print("LÄMMINTÄ")
 
-if temperature > 25 and temperature <= 30:
+elif temperature > 25 and temperature <= 30:
     print("HELLETTÄ")

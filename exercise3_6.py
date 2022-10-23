@@ -10,14 +10,14 @@ if year % 400 == 0:
     print("Karkausvuosi.")
 
 # Jos vuosiluku ei ole jaollinen 400 tarkistetaan muut ehdot.
-if year % 400 != 0:
+else:
 
     # Jos vuosiluku on jaollinen 100, kyseessa ei ole karkausvuosi.
     if year % 100 == 0:
         print("Ei ole karkausvuosi.")
 
     # Jos vuosiluku on jaollinen 4, kyseessä on karkausvuosi.
-    if year % 4 == 0:
+    elif year % 4 == 0:
         print("Karkausvuosi.")
 
     # Muulloin kyseessä ei ole karkausvuosi.
